@@ -1,0 +1,20 @@
+{
+    "student1": {
+        "roll": 101,
+        "name": "John",
+        "percent": 80.5,
+        "sports": false
+    },
+    "student2": {
+        "roll": 102,
+        "name": "Carol",
+        "percent": 80.5,
+        "sports": false
+    },
+    "student3": {
+        "roll": 103,
+        "name": "Alice",
+        "percent": 50.5,
+        "sports": false
+    }
+}
