@@ -1,7 +1,6 @@
- s1 = "  python to  "
+s1 = "  python to  "
 s2 = 25
 print("on" in s1)
-
 s3 = s1.strip()
 print(s3)
 s4 = s1.replace("python", "java")
@@ -65,6 +64,7 @@ l1 = [200, 300, 52, 63, 666]
 print(l1, type(l1))
 tpl3 = tuple(l1)
 print(tpl3, type(tpl3))
+print(f"is : {type(l1)}")
 
 # list mutable , tuple, strings are not
 
