@@ -1,6 +1,6 @@
 try:
     with open("file1.txt", "rt") as gf:
-        data = gf.readline(23)
+        data = gf.readline()
 
 except FileNotFoundError as file_err:
     print("File not exist")

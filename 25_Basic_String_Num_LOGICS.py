@@ -1,6 +1,5 @@
 #BASIC LOGIC
 from itertools import count
-
 s1 = "P   ython"
 c = 0
 for i in s1:
@@ -186,14 +185,14 @@ while nums > 0:
 print(f"Find sum of digits of a number  is {count} prash.")
 
 #Find the largest digit in a number.
-my__nums = 123
+my__nums = 12356416
 temp = my__nums
 max_digit = 0
 while temp > 0:
     digit = temp % 10
     if digit > max_digit:
         max_digit = digit
-        temp = temp // 10
+    temp = temp // 10
 print(f"largest digit in {my__nums} is {max_digit}")
 
 
